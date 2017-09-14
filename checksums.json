@@ -1,0 +1,7 @@
+{
+  "manifests/init.pp": "909360612a52b8968fa0c09980075657",
+  "metadata.json": "c6a1a5086a7b9186917ef4169494e69f",
+  "templates/httpd.conf.erb": "0a09fb922e30eaa1fd83aa936ae4dba9",
+  "templates/index.html": "21fc93ce10f66b8a52e4691c463648c5",
+  "templates/index_config.html": "c56a669c5215e9df6755dc0e45b9cca4"
+}
