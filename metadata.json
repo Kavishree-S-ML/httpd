@@ -1,6 +1,6 @@
 {
   "name": "kavishree-httpd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kavishree Shanmugam",
   "summary": "Installs, configures, and manages the httpd service.",
   "license": "Apache-2.0",
