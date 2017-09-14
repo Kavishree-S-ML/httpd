@@ -21,7 +21,7 @@ class httpd {
    file{ '/var/www/httpserver/index.html':
      ensure  =>  file,
      mode    => "0755",
-     content =>  template("httpdconfig/index_config.html"),
+     content =>  template("httpd/index_config.html"),
      require => File["/var/www/httpserver/"],
    }
      
@@ -92,7 +92,7 @@ class httpd {
      notify => Service["httpd"],    #checks our configuration file for any changes. If the file has changed, Puppet restarts the service
      ensure => file,
      require => Package["httpd"],   #check the httpd package is installed before adding this file
-     content => template("httpdconfig/httpd.conf.erb"),
+     content => template("httpd/httpd.conf.erb"),
    }
   
    # RUNNING THE HTTP SERVER
